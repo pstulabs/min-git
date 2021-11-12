@@ -1,0 +1,1 @@
+print('xyzaswkxxnekxoiwxq;lx'.replace('x','y')) # задача 1, она же 3
