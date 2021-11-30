@@ -19,7 +19,7 @@ def dict_search(req):
 	result = []
 	for i in persons_d:
 		a = list(i.values())
-		if [f[1] for f in process.extract(req, a)] > [60]:
+		if [f[1] for f in process.extract(req, a)] >= [60]:
 			result.append(i)
 	return (result)
 
@@ -28,7 +28,7 @@ def dict_search(req):
 def list_search(req):
 	result = []
 	for i in persons_l:
-		if [f[1] for f in process.extract(req, i)] > [60]:
+		if [f[1] for f in process.extract(req, i)] >= [60]:
 			result.append(i)
 	return (result)
 
