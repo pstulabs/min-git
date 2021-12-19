@@ -1,0 +1,20 @@
+## Параметры приложения
+[Yandex]
+# ключ к API сервиса погоды
+API_KEY=<key>
+#endpoint для тестового тарифа
+URL=https://api.weather.yandex.ru/v2/forecast?
+[OpenCage]
+# ключ к API сервиса геокодирования
+API_KEY=<key>
+[Telegram]
+# ключ API телеграм-бота
+API_KEY=<key>
+#endpoint
+URL=https://api.telegram.org/%(API_KEY)s/
+# список допустимых юзеров (для примера)
+WHITELIST=111111111,222222222
+# периодичность получения сообщений через getUpdates  в сек. (long polling)
+REQ_INTERVAL=3
+# периодичность проверки необходимости отправки прогноза в сек.
+CHECK_INTERVAL=600
