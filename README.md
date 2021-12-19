@@ -1,2 +1,2 @@
 # min-git
-PSTU Python labs repo
+test
